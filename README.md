@@ -18,4 +18,6 @@ php artisan serve
 
 # in a separate terminal Tab 
 npm install && npm run dev
-``` ![Screenshot_305](https://github.com/user-attachments/assets/39965a6d-bea3-4067-9d3f-be29e3b4633e)
+``` !
+````
+![Screenshot_305](https://github.com/user-attachments/assets/b46adcf9-6223-406d-9fed-f5dc7c04ae96)
