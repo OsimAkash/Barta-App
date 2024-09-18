@@ -7,16 +7,16 @@
         <form class="space-y-6" action="{{ route('register') }}" method="POST" novalidate>
             @csrf
             <!-- First Name -->
-            <x-input name="firstName" placeholder="Alp" label="First Name" value="{{ old('firstName') }}" />
+            <x-input name="firstName" placeholder="Jonh" label="First Name" value="{{ old('firstName') }}" />
 
             <!-- Last Name -->
-            <x-input name="lastName" placeholder="Arslan" label="last Name" value="{{ old('lastName') }}" />
+            <x-input name="lastName" placeholder="Doe" label="last Name" value="{{ old('lastName') }}" />
 
             <!-- Username -->
-            <x-input name="username" placeholder="alparslan1029" label="Username" value="{{ old('username') }}" />
+            <x-input name="username" placeholder="Jonh123" label="Username" value="{{ old('username') }}" />
 
             <!-- Email -->
-            <x-input name="email" type="email" placeholder="alp.arslan@mail.com" label="Email address" value="{{ old('email') }}" />
+            <x-input name="email" type="email" placeholder="jonh.Jonh@mail.com" label="Email address" value="{{ old('email') }}" />
 
             <!-- Password -->
             <x-input name="password" type="password" placeholder="••••••••" label="Password" />
