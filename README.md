@@ -5,7 +5,7 @@
 - Password Change (different url)
 - Upload Profile Picture (live avatar view when uploading and deleted user's old avatar (if any))
 - Make Blade Components
-
+ 
 ## How to install ?
 ```bash
 composer install 
